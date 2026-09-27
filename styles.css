@@ -55,3 +55,4 @@ button.gallery-stage{width:100%;padding:0;border:0;background:white;cursor:zoom-
 @media(max-width:600px){.image-viewer{padding:12px;width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}.viewer-title{font-size:13px}.image-viewer .viewer-image{height:55dvh}}
 
 .demo-label{display:inline-block;font-size:12px;font-weight:700;background:#e2ff6b;color:#22231f;padding:5px 10px;border-radius:4px;margin-bottom:18px}.community-demo .demo-art{display:block;width:100%;aspect-ratio:10/7;object-fit:contain;margin-bottom:20px;border-radius:4px}.community-demo .small{color:#c9ccbF}.community-demo .text-link{display:inline-block;margin-top:14px}.community-entry .community-image{display:block;margin-top:20px;border-radius:4px}.community-demo-note{color:#dbddd5;max-width:65ch}
+@media(max-width:650px){.hero-brand .hero-symbol{width:58%;transform:translate(3%,0)}}
