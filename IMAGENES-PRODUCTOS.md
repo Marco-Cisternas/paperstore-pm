@@ -26,3 +26,5 @@ Estos pendientes no se presentan como fichas completas ni se incluyeron promocio
 ## Ampliación: POSCA PC-1M
 
 Se incorpora la octava ficha, POSCA PC-1M de 16 colores, con la imagen suministrada por el usuario. El envase confirma modelo, 16 colores, 0,7 mm y tinta a base de agua. No se extrapola a otros modelos POSCA ni se afirma stock. Conserva una única imagen; no se inventó una vista alternativa. Siete de las ocho fichas tienen fotografía.
+
+Corrección de fotografía POSCA: la captura se reemplazó en la ficha y el catálogo por una fotografía oficial con fondo blanco de uni Mitsubishi Pencil Malaysia, correspondiente al mismo PC-1M de 16 colores. Fuente: https://www.mp-uni.com/my/product/posca-pc-1m-pack-16-colors/ . La captura anterior queda solo como referencia, sin mostrarse.

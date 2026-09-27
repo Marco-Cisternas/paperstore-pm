@@ -443,8 +443,8 @@ window.PAPERSTORE_PRODUCTS = [
     "tone": "green",
     "detail": "POSCA",
     "unit": "16 COLORES",
-    "image": "assets/productos/posca-pc-1m-16.png",
-    "imageNote": "Imagen proporcionada para esta ficha. Modelo, cantidad de colores y grosor leídos en el envase.",
+    "image": "assets/productos/posca-pc-1m-16-blanco.jpg",
+    "imageNote": "Fotografía de catálogo de uni Mitsubishi Pencil del set POSCA PC-1M de 16 colores.",
     "tags": [
       "posca",
       "uni",
