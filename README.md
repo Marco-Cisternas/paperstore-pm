@@ -1,6 +1,6 @@
 # PaperStore PM · Propuesta v3
 
-Maqueta local, portable y sin dependencias. No hay repositorio remoto creado, dominio contratado ni despliegue público.
+Maqueta portable y sin dependencias. Repositorio: https://github.com/Marco-Cisternas/paperstore-pm. GitHub Pages está configurado con el flujo pages.yml. No hay dominio propio contratado.
 
 ## Ver y revisar
 
