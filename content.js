@@ -53,6 +53,33 @@ window.PAPERSTORE_CATEGORIES = [
 
 // Los destacados referencian IDs; el resto del catálogo permanece disponible.
 window.PAPERSTORE_FEATURED = ["ohuhu","stabilo","lamy-gryffindor"];
+window.PAPERSTORE_ACTIVITIES = [
+  {
+    "id": "dibujar",
+    "name": "Dibujar",
+    "hint": "Trazos, detalles e ilustración."
+  },
+  {
+    "id": "colorear",
+    "name": "Colorear",
+    "hint": "Libros y materiales para explorar el color."
+  },
+  {
+    "id": "escribir",
+    "name": "Escribir",
+    "hint": "Plumas, apuntes y planificación."
+  },
+  {
+    "id": "organizar",
+    "name": "Organizar",
+    "hint": "Un espacio para cada material."
+  },
+  {
+    "id": "tecnica",
+    "name": "Dibujo técnico",
+    "hint": "Una sección que estamos preparando."
+  }
+];
 window.PAPERSTORE_PRODUCTS = [
   {
     "id": "ohuhu",
@@ -107,7 +134,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/ohuhu-alt.jpg",
         "alt": "Organizador giratorio Ohuhu · 178 espacios — presentación y caja"
       }
-    ]
+    ],
+    "activities": [
+      "organizar"
+    ],
+    "guide": {
+      "audience": "Para quienes quieren tener su colección de marcadores a la vista.",
+      "difference": "Base giratoria y capacidad anunciada para 178 marcadores Ohuhu.",
+      "beforeChoosing": "Confirma la compatibilidad con tus marcadores y si se incluyen accesorios."
+    }
   },
   {
     "id": "stabilo",
@@ -179,7 +214,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/stabilo-nature-alt.jpg",
         "alt": "STABILO BOSS NatureCOLORS · set de 10 — set en su envase"
       }
-    ]
+    ],
+    "activities": [
+      "escribir"
+    ],
+    "guide": {
+      "audience": "Para organizar apuntes y planificaciones por colores.",
+      "difference": "Diez tonos NatureCOLORS Wildflower reunidos en un soporte de escritorio.",
+      "beforeChoosing": "Comprueba que esta selección de tonos y presentación sea la que buscas."
+    }
   },
   {
     "id": "florecer",
@@ -256,7 +299,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/florecer-alt.png",
         "alt": "Libro Florecer — página interior para probar colores"
       }
-    ]
+    ],
+    "activities": [
+      "colorear"
+    ],
+    "guide": {
+      "audience": "Para quienes disfrutan colorear a su propio ritmo.",
+      "difference": "Un libro de Caroquenelle con una propuesta centrada en colorear en calma.",
+      "beforeChoosing": "Consulta qué lápices o marcadores son adecuados para su papel."
+    }
   },
   {
     "id": "stabilo-boss-original",
@@ -316,7 +367,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/stabilo-boss-alt.jpg",
         "alt": "STABILO BOSS ORIGINAL · individual — detalle de la punta roja"
       }
-    ]
+    ],
+    "activities": [
+      "escribir"
+    ],
+    "guide": {
+      "audience": "Para destacar información y separar temas en tus apuntes.",
+      "difference": "Formato BOSS ORIGINAL de cuerpo ancho, en presentación individual.",
+      "beforeChoosing": "Consulta los colores disponibles; la foto muestra un color de referencia."
+    }
   },
   {
     "id": "lamy-gryffindor",
@@ -381,7 +440,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/lamy-gryffindor-alt.webp",
         "alt": "LAMY Safari Harry Potter · Gryffindor — pluma cerrada"
       }
-    ]
+    ],
+    "activities": [
+      "escribir"
+    ],
+    "guide": {
+      "audience": "Para quienes disfrutan escribir con pluma o buscan un regalo de Harry Potter.",
+      "difference": "Edición Safari con emblema de Gryffindor y detalles rojos.",
+      "beforeChoosing": "Confirma el grosor del plumín, las recargas compatibles y el contenido de la caja."
+    }
   },
   {
     "id": "lamy-slytherin",
@@ -446,7 +513,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/lamy-slytherin-alt.webp",
         "alt": "LAMY Safari Harry Potter · Slytherin — pluma cerrada"
       }
-    ]
+    ],
+    "activities": [
+      "escribir"
+    ],
+    "guide": {
+      "audience": "Para quienes disfrutan escribir con pluma o buscan un regalo de Harry Potter.",
+      "difference": "Edición Safari con emblema de Slytherin y detalles verdes.",
+      "beforeChoosing": "Confirma el grosor del plumín, las recargas compatibles y el contenido de la caja."
+    }
   },
   {
     "id": "stabilo-swing-cool",
@@ -506,7 +581,15 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/stabilo-swing-alt.jpg",
         "alt": "STABILO Swing Cool Pastel · individual — detalle de la punta verde pastel"
       }
-    ]
+    ],
+    "activities": [
+      "escribir"
+    ],
+    "guide": {
+      "audience": "Para llevar un destacador en el estuche o junto al cuaderno.",
+      "difference": "Cuerpo delgado con clip y colores de la línea Pastel.",
+      "beforeChoosing": "Consulta los tonos disponibles y prueba sobre el papel que usarás."
+    }
   },
   {
     "id": "posca-pc-1m-16",
@@ -582,7 +665,16 @@ window.PAPERSTORE_PRODUCTS = [
         "src": "assets/productos/posca-set-alt.jpg",
         "alt": "POSCA PC-1M · set de 16 colores — vista lateral del set de 16 colores"
       }
-    ]
+    ],
+    "activities": [
+      "dibujar",
+      "colorear"
+    ],
+    "guide": {
+      "audience": "Para proyectos con detalles pequeños y combinaciones de color.",
+      "difference": "Set de 16 marcadores PC-1M, con punta indicada de 0,7 mm y tinta a base de agua.",
+      "beforeChoosing": "Consulta la compatibilidad con tu superficie y realiza una prueba antes de empezar."
+    }
   }
 ];
 for (const product of window.PAPERSTORE_PRODUCTS) product.categoryLabel=window.PAPERSTORE_CATEGORIES.find(c=>c.id===product.category)?.name||product.category;

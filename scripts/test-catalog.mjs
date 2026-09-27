@@ -26,3 +26,8 @@ for(const product of actual){
 }
 for(const id of sandbox.window.PAPERSTORE_FEATURED)assert.ok(actual.some(p=>p.id===id));
 console.log('Catálogo: filtros combinados, tildes, categorías, IDs y paginación con 350 registros verificados.');
+
+assert.equal(select(actual,{activity:'organizar'}).items[0].id,'ohuhu');
+assert.equal(select(actual,{activity:'colorear',brand:'POSCA'}).total,1);
+assert.equal(select(actual,{activity:'tecnica'}).total,0);
+assert.equal(select(actual,{activity:'escribir',brand:'LAMY'}).total,2);

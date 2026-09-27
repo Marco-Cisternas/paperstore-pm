@@ -43,3 +43,6 @@ Las fichas permiten ampliar la foto en un visor modal, cambiar con flechas, mini
 
 ## Ejemplos de comunidad
 Dos reseñas y dos trabajos están marcados con demo:true y status:demo. Se muestran con etiqueta visible y no se cuentan como publicaciones reales. Las dos ilustraciones SVG son bocetos digitales originales de demostración; no son páginas del libro ni fotografías de resultados con los materiales. Retirar estos registros al activar aportes reales.
+
+## Exploración por actividad
+La portada y el catálogo permiten explorar por actividad, combinable con categoría, marca y búsqueda. Dibujo técnico muestra un estado vacío hasta cargar referencias reales. Las fichas incluyen orientación editorial para elegir, basada en los datos existentes; no confirma stock ni accesorios. Los trabajos mantienen su identificación de demostración y enlazan al material asociado.
