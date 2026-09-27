@@ -22,3 +22,7 @@ Los textos son descripciones y usos sugeridos para esta maqueta, no reseñas de 
 - Papelería Snoopy: https://www.instagram.com/paperstore.chile/p/DWgcTe0jWQ_/ . Separar los artículos e identificar cada presentación antes de cargarlos.
 
 Estos pendientes no se presentan como fichas completas ni se incluyeron promociones como si fueran productos a la venta.
+
+## Ampliación: POSCA PC-1M
+
+Se incorpora la octava ficha, POSCA PC-1M de 16 colores, con la imagen suministrada por el usuario. El envase confirma modelo, 16 colores, 0,7 mm y tinta a base de agua. No se extrapola a otros modelos POSCA ni se afirma stock. Conserva una única imagen; no se inventó una vista alternativa. Siete de las ocho fichas tienen fotografía.

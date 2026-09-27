@@ -431,6 +431,63 @@ window.PAPERSTORE_PRODUCTS = [
     "manufacturerSource": "https://www.stabilo.com/es/fluorescente-stabilo-swing-cool-pastel/275-8-08-1",
     "imageNote": "Fotografía de STABILO del modelo individual. Color de referencia; consultar tonos disponibles.",
     "checkedAt": "2026-09-27"
+  },
+  {
+    "id": "posca-pc-1m-16",
+    "category": "escritura",
+    "subcategory": "Lápices y marcadores",
+    "brand": "POSCA",
+    "name": "POSCA PC-1M · set de 16 colores",
+    "description": "Un set de 16 marcadores de punta fina para explorar el color y trabajar los detalles de tus ideas. Presentación PC-1M de uni POSCA, con tinta a base de agua.",
+    "source": "Imagen del producto proporcionada por el usuario en esta conversación.",
+    "tone": "green",
+    "detail": "POSCA",
+    "unit": "16 COLORES",
+    "image": "assets/productos/posca-pc-1m-16.png",
+    "imageNote": "Imagen proporcionada para esta ficha. Modelo, cantidad de colores y grosor leídos en el envase.",
+    "tags": [
+      "posca",
+      "uni",
+      "pc-1m",
+      "pc1m",
+      "marcadores",
+      "pintura",
+      "dibujo",
+      "16 colores",
+      "punta fina",
+      "0,7 mm"
+    ],
+    "specs": [
+      [
+        "Marca",
+        "uni POSCA"
+      ],
+      [
+        "Modelo",
+        "PC-1M"
+      ],
+      [
+        "Presentación",
+        "Set de 16 colores"
+      ],
+      [
+        "Punta indicada en el envase",
+        "0,7 mm"
+      ],
+      [
+        "Tinta",
+        "A base de agua"
+      ]
+    ],
+    "uses": [
+      "Añadir detalles de color a dibujos e ilustraciones.",
+      "Crear títulos pequeños y trazos decorativos.",
+      "Explorar combinaciones de color en proyectos creativos."
+    ],
+    "usageNote": "Prueba el marcador en una pequeña zona del material. Consulta con el equipo de Paper Store la compatibilidad de la superficie, los cuidados de uso y la disponibilidad del set.",
+    "reviews": [],
+    "works": [],
+    "comments": []
   }
 ];
 for (const product of window.PAPERSTORE_PRODUCTS) product.categoryLabel=window.PAPERSTORE_CATEGORIES.find(c=>c.id===product.category)?.name||product.category;
