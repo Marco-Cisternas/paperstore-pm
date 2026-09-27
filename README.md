@@ -38,3 +38,5 @@ Antes de publicar la versión definitiva: validar contenidos y autorización de 
 ## Galerías
 
 Los ocho productos tienen dos vistas oficiales. Para nuevas fichas, incorporar una vista principal y otra del producto, envase o detalle. `images` en `content.js` contiene cada ruta y su descripción. `gallery.js` muestra una vista temporal con el mouse, restaura la seleccionada al salir y permite elegir con botones/miniaturas mediante teclado o tacto. Los productos con una foto no muestran controles. Se respeta la preferencia de movimiento reducido. Las galerías usan fotografías del mismo modelo; no representan variantes de compra ni stock.
+
+Las fichas permiten ampliar la foto en un visor modal, cambiar con flechas, miniaturas, teclado o deslizamiento táctil y cerrar con el botón o Escape. Al cerrar se conserva la selección y el foco vuelve a la imagen.

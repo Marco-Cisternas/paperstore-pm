@@ -36,3 +36,20 @@
 .product>.photo-gallery{flex:none}
 .product>.product-link{height:auto;flex:1;min-height:0}
 .product-body{min-width:0;overflow-wrap:anywhere}
+
+/* Visor de imágenes en las fichas de producto. */
+button.gallery-stage{width:100%;padding:0;border:0;background:white;cursor:zoom-in}
+.viewer-open{overflow:hidden}
+.image-viewer{width:min(1100px,calc(100vw - 32px));max-width:none;max-height:calc(100dvh - 32px);padding:20px;border:0;border-radius:8px;background:white;color:#22231f;overflow:auto}
+.image-viewer::backdrop{background:rgba(20,22,18,.82)}
+.image-viewer[open]{display:grid;grid-template-columns:1fr auto;gap:12px}
+.viewer-title{margin:0;align-self:center;font-size:16px;font-weight:700}
+.image-viewer button{min-width:44px;min-height:44px;border:1px solid #deded8;border-radius:4px;background:white;color:#22231f;cursor:pointer}
+.viewer-close{padding:8px 14px}
+.image-viewer .viewer-image{grid-column:1/-1;display:block;width:100%;height:min(65dvh,750px);object-fit:contain;touch-action:pan-y pinch-zoom}
+.viewer-controls,.viewer-thumbnails{grid-column:1/-1;display:flex;justify-content:center;align-items:center;gap:14px}
+.viewer-controls button{font-size:24px}
+.viewer-thumbnails button{padding:4px}
+.viewer-thumbnails img{display:block;width:48px;height:40px;object-fit:contain}
+.viewer-thumbnails button[aria-pressed=true]{border:2px solid #22231f;background:#f0f3e7}
+@media(max-width:600px){.image-viewer{padding:12px;width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}.viewer-title{font-size:13px}.image-viewer .viewer-image{height:55dvh}}
