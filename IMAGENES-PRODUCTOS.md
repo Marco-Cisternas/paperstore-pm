@@ -28,3 +28,7 @@ Estos pendientes no se presentan como fichas completas ni se incluyeron promocio
 Se incorpora la octava ficha, POSCA PC-1M de 16 colores, con la imagen suministrada por el usuario. El envase confirma modelo, 16 colores, 0,7 mm y tinta a base de agua. No se extrapola a otros modelos POSCA ni se afirma stock. Conserva una única imagen; no se inventó una vista alternativa. Siete de las ocho fichas tienen fotografía.
 
 Corrección de fotografía POSCA: la captura se reemplazó en la ficha y el catálogo por una fotografía oficial con fondo blanco de uni Mitsubishi Pencil Malaysia, correspondiente al mismo PC-1M de 16 colores. Fuente: https://www.mp-uni.com/my/product/posca-pc-1m-pack-16-colors/ . La captura anterior queda solo como referencia, sin mostrarse.
+
+## Galerías completas
+
+Los ocho productos tienen ahora dos imágenes distintas. Florecer se identificó por la portada aportada por el usuario y la tienda oficial de Caroquenelle: https://caroquenelle.cl/product/libro-para-colorear-florecer-pausa-creativa/ . Se muestra la portada sobre blanco y la página interior de prueba de colores. Esto resuelve el pendiente de fotografía del libro de las versiones anteriores. STABILO suma vistas del envase o punta; POSCA suma una vista lateral del set PC-1M de 16 colores de https://www.unibrands.co/products/uni-posca-pc1m-extra-fine-tip-assorted-colors-16-pack . Las rutas originales están en assets/productos/fuentes.json.

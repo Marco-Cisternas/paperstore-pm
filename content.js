@@ -161,20 +161,30 @@ window.PAPERSTORE_PRODUCTS = [
     "comments": [],
     "manufacturerSource": "https://www.stabilo.com/com/highlighter-stabilo-boss-original-naturecolors-wildflower/7010-3-5",
     "imageNote": "Fotografía de STABILO del set NatureCOLORS Wildflower de 10 destacadores.",
-    "checkedAt": "2026-09-27"
+    "checkedAt": "2026-09-27",
+    "images": [
+      {
+        "src": "assets/productos/stabilo-nature.jpg",
+        "alt": "STABILO BOSS NatureCOLORS · set de 10 — vista principal"
+      },
+      {
+        "src": "assets/productos/stabilo-nature-alt.jpg",
+        "alt": "STABILO BOSS NatureCOLORS · set de 10 — set en su envase"
+      }
+    ]
   },
   {
     "id": "florecer",
     "category": "arte",
     "subcategory": "Libros para colorear",
-    "brand": "Por confirmar",
+    "brand": "Caroquenelle",
     "name": "Libro Florecer",
-    "description": "Un libro para conocer sus ilustraciones y explorar el color a tu ritmo. Presentado en las redes de Paper Store como parte de su selección creativa.",
+    "description": "Un libro para colorear en calma, de Caroquenelle. Explora sus ilustraciones y combinaciones de color a tu ritmo.",
     "source": "https://www.instagram.com/caroquenelle/reel/DdPiB4hMgEu/",
     "tone": "green",
     "detail": "Florecer",
     "unit": "EXPLORA · PINTA · DISFRUTA",
-    "image": null,
+    "image": "assets/productos/florecer.jpg",
     "tags": [
       "pintar",
       "colorear",
@@ -190,6 +200,14 @@ window.PAPERSTORE_PRODUCTS = [
       [
         "Tipo",
         "Libro para colorear"
+      ],
+      [
+        "Autora",
+        "Caroquenelle"
+      ],
+      [
+        "Subtítulo",
+        "Un libro para colorear en calma"
       ]
     ],
     "uses": [
@@ -200,7 +218,20 @@ window.PAPERSTORE_PRODUCTS = [
     "usageNote": "Consulta con la tienda qué materiales son adecuados para el papel de este libro.",
     "reviews": [],
     "works": [],
-    "comments": []
+    "comments": [],
+    "manufacturerSource": "https://caroquenelle.cl/product/libro-para-colorear-florecer-pausa-creativa/",
+    "imageNote": "Portada y página interior de la tienda oficial de Caroquenelle.",
+    "checkedAt": "2026-09-27",
+    "images": [
+      {
+        "src": "assets/productos/florecer.jpg",
+        "alt": "Libro Florecer — portada"
+      },
+      {
+        "src": "assets/productos/florecer-alt.png",
+        "alt": "Libro Florecer — página interior para probar colores"
+      }
+    ]
   },
   {
     "id": "stabilo-boss-original",
@@ -250,7 +281,17 @@ window.PAPERSTORE_PRODUCTS = [
     "comments": [],
     "manufacturerSource": "https://www.stabilo.com/es/productos/fluorescentes/fluorescentes-pastel/?p=2",
     "imageNote": "Fotografía de STABILO. Color de referencia; consultar los colores disponibles en la tienda.",
-    "checkedAt": "2026-09-27"
+    "checkedAt": "2026-09-27",
+    "images": [
+      {
+        "src": "assets/productos/stabilo-boss.jpg",
+        "alt": "STABILO BOSS ORIGINAL · individual — vista principal"
+      },
+      {
+        "src": "assets/productos/stabilo-boss-alt.jpg",
+        "alt": "STABILO BOSS ORIGINAL · individual — detalle de la punta roja"
+      }
+    ]
   },
   {
     "id": "lamy-gryffindor",
@@ -430,7 +471,17 @@ window.PAPERSTORE_PRODUCTS = [
     "comments": [],
     "manufacturerSource": "https://www.stabilo.com/es/fluorescente-stabilo-swing-cool-pastel/275-8-08-1",
     "imageNote": "Fotografía de STABILO del modelo individual. Color de referencia; consultar tonos disponibles.",
-    "checkedAt": "2026-09-27"
+    "checkedAt": "2026-09-27",
+    "images": [
+      {
+        "src": "assets/productos/stabilo-swing.jpg",
+        "alt": "STABILO Swing Cool Pastel · individual — vista principal"
+      },
+      {
+        "src": "assets/productos/stabilo-swing-alt.jpg",
+        "alt": "STABILO Swing Cool Pastel · individual — detalle de la punta verde pastel"
+      }
+    ]
   },
   {
     "id": "posca-pc-1m-16",
@@ -487,7 +538,17 @@ window.PAPERSTORE_PRODUCTS = [
     "usageNote": "Prueba el marcador en una pequeña zona del material. Consulta con el equipo de Paper Store la compatibilidad de la superficie, los cuidados de uso y la disponibilidad del set.",
     "reviews": [],
     "works": [],
-    "comments": []
+    "comments": [],
+    "images": [
+      {
+        "src": "assets/productos/posca-pc-1m-16-blanco.jpg",
+        "alt": "POSCA PC-1M · set de 16 colores — vista principal"
+      },
+      {
+        "src": "assets/productos/posca-set-alt.jpg",
+        "alt": "POSCA PC-1M · set de 16 colores — vista lateral del set de 16 colores"
+      }
+    ]
   }
 ];
 for (const product of window.PAPERSTORE_PRODUCTS) product.categoryLabel=window.PAPERSTORE_CATEGORIES.find(c=>c.id===product.category)?.name||product.category;

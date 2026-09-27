@@ -36,3 +36,7 @@ El usuario confirmó que todavía no hay un listado digital. Hay tres fichas ini
 ## Actualización v3
 
 Primera carga desde redes con fotografías oficiales: consultar IMAGENES-PRODUCTOS.md y assets/productos/fuentes.json. Esa actualización sustituye los pendientes generales de fotografía de versiones previas; Florecer sigue pendiente.
+
+## Galerías completas
+
+Los ocho productos tienen ahora dos imágenes distintas. Florecer se identificó por la portada aportada por el usuario y la tienda oficial de Caroquenelle: https://caroquenelle.cl/product/libro-para-colorear-florecer-pausa-creativa/ . Se muestra la portada sobre blanco y la página interior de prueba de colores. Esto resuelve el pendiente de fotografía del libro de las versiones anteriores. STABILO suma vistas del envase o punta; POSCA suma una vista lateral del set PC-1M de 16 colores de https://www.unibrands.co/products/uni-posca-pc1m-extra-fine-tip-assorted-colors-16-pack . Las rutas originales están en assets/productos/fuentes.json.
