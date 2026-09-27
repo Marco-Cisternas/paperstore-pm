@@ -14,7 +14,7 @@
 
 /* Identidad vectorial: símbolo y lettering con fondo transparente. */
 .header .brand-logo{height:auto;aspect-ratio:440/250}
-.hero-brand .hero-symbol{width:72%;max-width:340px;mix-blend-mode:normal;margin-bottom:26px}
+.hero-brand .hero-symbol{width:64%;max-width:300px;height:auto;mix-blend-mode:normal;margin:0;transform:translate(3%,12px)}
 
 .photo-gallery{width:100%;background:#fff}
 .gallery-stage{display:block;position:relative;height:340px;isolation:isolate}
