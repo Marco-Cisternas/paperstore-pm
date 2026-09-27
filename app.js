@@ -35,3 +35,10 @@ if(catalog){
  for(const reset of document.querySelectorAll('[data-clear]'))reset.addEventListener('click',()=>{form.reset();subcategories();render();search.focus();});
  window.addEventListener('popstate',restore);restore();
 }
+
+const communityExamples=document.querySelector('#community-examples');
+if(communityExamples){for(const kind of ['works','reviews'])for(const product of allProducts)for(const record of product[kind].filter(r=>r.demo&&r.status==='demo')){
+ const card=element('article','community-demo');card.append(element('span','demo-label','Ejemplo de demostración'));
+ if(record.image){const image=element('img','demo-art');image.src=record.image;image.alt=record.title+' — ilustración digital de ejemplo';image.loading='lazy';card.append(image);}
+ card.append(element('p','small',kind==='works'?'IDEA DE TRABAJO':'RESEÑA DE EJEMPLO'),element('h3','',record.title),element('p','',record.text));const a=element('a','text-link','Ver '+product.name+' ↗');a.href='producto.html?id='+encodeURIComponent(product.id)+(kind==='works'?'#trabajos':'#resenas');card.append(a);communityExamples.append(card);
+}}

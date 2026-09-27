@@ -31,7 +31,7 @@ La maqueta incluye el despliegue de `dist/` preparado para GitHub Pages. Para Cl
 - Datos de investigación y pendientes: `FUENTES.md`.
 - Plan de recepción real, aprobación y entrega: `TRASPASO.md`.
 
-Marca digitalizada en SVG a partir del logo proporcionado por el usuario: símbolo, lettering y composición separados, con fondo transparente. El lettering está convertido a curvas; no se ha identificado su fuente original. Ver assets/marca/LEEME.md. Las fichas abren dentro del sitio; sus fuentes quedan en el archivo de contenido. Se cargaron ocho fichas, todas con dos imágenes oficiales del fabricante o de la autora. Falta completar el inventario real. Consultar IMAGENES-PRODUCTOS.md para correspondencias y créditos. No hay opiniones ni proyectos inventados. La paleta de acento y textos de presentación son una propuesta, no una guía de marca confirmada.
+Marca digitalizada en SVG a partir del logo proporcionado por el usuario: símbolo, lettering y composición separados, con fondo transparente. El lettering está convertido a curvas; no se ha identificado su fuente original. Ver assets/marca/LEEME.md. Las fichas abren dentro del sitio; sus fuentes quedan en el archivo de contenido. Se cargaron ocho fichas, todas con dos imágenes oficiales del fabricante o de la autora. Falta completar el inventario real. Consultar IMAGENES-PRODUCTOS.md para correspondencias y créditos. Los aportes de muestra están identificados como ejemplos de demostración; no hay reseñas atribuidas a clientes reales. La paleta de acento y textos de presentación son una propuesta, no una guía de marca confirmada.
 
 Antes de publicar la versión definitiva: validar contenidos y autorización de activos con la dueña, conectar la recepción real y la moderación privada, retirar la banda de propuesta y el formulario de revisión, reemplazar la demostración y retirar `noindex` solo cuando corresponda. `noindex` no hace privada una página.
 
@@ -40,3 +40,6 @@ Antes de publicar la versión definitiva: validar contenidos y autorización de 
 Los ocho productos tienen dos vistas oficiales. Para nuevas fichas, incorporar una vista principal y otra del producto, envase o detalle. `images` en `content.js` contiene cada ruta y su descripción. `gallery.js` muestra una vista temporal con el mouse, restaura la seleccionada al salir y permite elegir con botones/miniaturas mediante teclado o tacto. Los productos con una foto no muestran controles. Se respeta la preferencia de movimiento reducido. Las galerías usan fotografías del mismo modelo; no representan variantes de compra ni stock.
 
 Las fichas permiten ampliar la foto en un visor modal, cambiar con flechas, miniaturas, teclado o deslizamiento táctil y cerrar con el botón o Escape. Al cerrar se conserva la selección y el foco vuelve a la imagen.
+
+## Ejemplos de comunidad
+Dos reseñas y dos trabajos están marcados con demo:true y status:demo. Se muestran con etiqueta visible y no se cuentan como publicaciones reales. Las dos ilustraciones SVG son bocetos digitales originales de demostración; no son páginas del libro ni fotografías de resultados con los materiales. Retirar estos registros al activar aportes reales.

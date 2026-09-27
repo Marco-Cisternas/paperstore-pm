@@ -17,10 +17,10 @@ else{
  const sections=[['resenas','Reseñas del producto','Aún no hay reseñas publicadas de este producto.','Compartir mi reseña','opinion',product.reviews],['trabajos','Creado con este producto','Aquí aparecerán los trabajos aprobados que usen este material.','Compartir un trabajo','trabajo',product.works],['comentarios','Comentarios y consultas','¿Has probado este producto o quieres saber cómo usarlo?','Dejar un comentario','comentario',product.comments]];
  for(const [anchor,title,empty,action,kind,records] of sections){
   const section=el('section','detail-section');section.id=anchor;
-  const visible=records.filter(record=>record.status==='approved');
-  section.append(el('h2','',title),el('p','small',visible.length+' publicaciones'));
+  const visible=records.filter(record=>record.status==='approved'||(record.status==='demo'&&record.demo===true));
+  section.append(el('h2','',title),el('p','small',visible.filter(r=>!r.demo).length+' publicaciones'+(visible.some(r=>r.demo)?' · '+visible.filter(r=>r.demo).length+' ejemplo de demostración':'')));
   if(!visible.length)section.append(el('p','',empty));
-  for(const record of visible){const entry=el('article','community-entry');entry.append(el('h3','',record.title),el('p','',record.text),el('p','small','Por '+record.author));if(record.image){const img=el('img','community-image');img.src=record.image;img.alt=record.title;entry.append(img);}section.append(entry);}
+  for(const record of visible){const entry=el('article','community-entry');if(record.demo)entry.append(el('span','demo-label','Ejemplo de demostración'));entry.append(el('h3','',record.title),el('p','',record.text),el('p','small','Por '+record.author));if(record.image){const img=el('img','community-image');img.src=record.image;img.alt=record.title;entry.append(img);}section.append(entry);}
   section.append(link(action,'participa.html?producto='+encodeURIComponent(product.id)+'&tipo='+kind,'button outline'));target.append(section);
  }
  const note=el('p','notice','En esta propuesta puedes probar el envío y la revisión. Las reseñas, trabajos y comentarios reales se publicarán aquí solo después de la aprobación del equipo de Paper Store.');target.append(note);

@@ -156,7 +156,15 @@ window.PAPERSTORE_PRODUCTS = [
       "Marcar tareas y fechas en tu planificación."
     ],
     "usageNote": "Prueba primero sobre el papel que usarás. La presentación y los colores de cada set deben confirmarse con la tienda.",
-    "reviews": [],
+    "reviews": [
+      {
+        "title": "Un color para cada tema",
+        "text": "Organicé mis apuntes con un color para definiciones, otro para fechas y otro para ejemplos. Al principio quería usar todos los tonos, pero quedarme con tres me ayudó a que la página se viera más ordenada.",
+        "author": "Perfil de ejemplo · estudiante",
+        "demo": true,
+        "status": "demo"
+      }
+    ],
     "works": [],
     "comments": [],
     "manufacturerSource": "https://www.stabilo.com/com/highlighter-stabilo-boss-original-naturecolors-wildflower/7010-3-5",
@@ -216,8 +224,25 @@ window.PAPERSTORE_PRODUCTS = [
       "Compartir distintas interpretaciones de una misma ilustración."
     ],
     "usageNote": "Consulta con la tienda qué materiales son adecuados para el papel de este libro.",
-    "reviews": [],
-    "works": [],
+    "reviews": [
+      {
+        "title": "Un rato para probar colores",
+        "text": "Empecé con una paleta de tres colores y fui avanzando un ratito cada tarde. Me gustó darme ese espacio sin intentar terminar todo de una vez. Para la próxima quiero probar una combinación menos parecida a la portada.",
+        "author": "Perfil de ejemplo · aficionada al color",
+        "demo": true,
+        "status": "demo"
+      }
+    ],
+    "works": [
+      {
+        "title": "Flores en lavanda y terracota",
+        "text": "Una propuesta de paleta suave para una tarde de color: lavanda, terracota y verde salvia. Ilustración original de demostración; no reproduce una página de Florecer ni corresponde a un trabajo de una clienta.",
+        "author": "Estudio de ejemplo",
+        "image": "assets/comunidad/flores-demo.svg",
+        "demo": true,
+        "status": "demo"
+      }
+    ],
     "comments": [],
     "manufacturerSource": "https://caroquenelle.cl/product/libro-para-colorear-florecer-pausa-creativa/",
     "imageNote": "Portada y página interior de la tienda oficial de Caroquenelle.",
@@ -537,7 +562,16 @@ window.PAPERSTORE_PRODUCTS = [
     ],
     "usageNote": "Prueba el marcador en una pequeña zona del material. Consulta con el equipo de Paper Store la compatibilidad de la superficie, los cuidados de uso y la disponibilidad del set.",
     "reviews": [],
-    "works": [],
+    "works": [
+      {
+        "title": "Una tarjeta para decir gracias",
+        "text": "Idea de diseño con letras grandes y pequeños detalles botánicos. Boceto digital de demostración para inspirar un proyecto con POSCA; no es una fotografía de un trabajo realizado con los marcadores.",
+        "author": "Estudio de ejemplo",
+        "image": "assets/comunidad/tarjeta-demo.svg",
+        "demo": true,
+        "status": "demo"
+      }
+    ],
     "comments": [],
     "images": [
       {

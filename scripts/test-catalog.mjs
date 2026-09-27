@@ -22,7 +22,7 @@ assert.equal(select(fixtures,{sort:'za'}).items[0].id,'fixture-349');
 assert.equal(new Set(actual.map(p=>p.id)).size,actual.length);
 for(const product of actual){
  assert.ok(sandbox.window.PAPERSTORE_CATEGORIES.some(c=>c.id===product.category&&c.children.includes(product.subcategory)));
- for(const record of [...product.reviews,...product.works,...product.comments])assert.equal(record.status,'approved','No incluir aportes privados en el catálogo público');
+ for(const record of [...product.reviews,...product.works,...product.comments])assert.ok(record.status==='approved'||(record.status==='demo'&&record.demo===true),'Solo aportes aprobados o ejemplos explícitos; nunca aportes privados');
 }
 for(const id of sandbox.window.PAPERSTORE_FEATURED)assert.ok(actual.some(p=>p.id===id));
 console.log('Catálogo: filtros combinados, tildes, categorías, IDs y paginación con 350 registros verificados.');
