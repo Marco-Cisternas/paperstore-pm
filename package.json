@@ -1,0 +1,14 @@
+{
+  "name": "paperstore-pm",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Maqueta portátil de PaperStore PM",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test-catalog.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
